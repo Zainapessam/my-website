@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zainap Essam's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a3b7 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section#showcase {
+            min-height: 400px;
+            background: #77a3b7;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+        section#showcase h1 {
+            margin-top: 50px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        section#showcase p {
+            font-size: 20px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Zainap Essam</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Webpage</h1>
+            <p>A highly motivated and ambitious individual, with the ability to learn quickly and develop the skills that work needs.</p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>
+            Able to execute successful campaigns, drive revenue growth, and enhance brand visibility. Skilled in digital marketing, cross-functional collaboration, and data-driven strategies to maximize ROI and exceed business objectives.
+        </p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:Zainap.essam44@gmail.com">Zainap.essam44@gmail.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/zainapessam0/" target="_blank">instagram.com/zainapessam0</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/zainap-essam-855662151/" target="_blank">linkedin.com/in/zainap-essam-855662151</a></p>
+    </section>
+
+    <footer>
+        <p>Zainap Essam &copy; 2024</p>
+    </footer>
+</body>
+</html>
